@@ -1,7 +1,7 @@
 {
     "name": "learn-vue",
     "version": "1.0.0",
-    "description": "反馈sdk",
+    "description": "",
     "scripts": {
         "build": "rollup --config",
         "dev": "rollup -w --config",
@@ -10,8 +10,6 @@
     "keywords": [
         "mini-vue"
     ],
-    "main": "lib/feedback.js",
-    "module": "es/feedback.js",
     "types": "index.d.ts",
     "files": [
         "dist",
