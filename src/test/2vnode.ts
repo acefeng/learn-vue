@@ -1,5 +1,5 @@
 import { h, Text, Fragment } from '../runtime/vnode';
-import { render } from '../runtime/render';
+import { render } from '../runtime/render_old';
 
 export default function() {
     render(h(

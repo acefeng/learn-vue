@@ -43,7 +43,7 @@ export default function() {
     // ref 测试
     // const testdemo = (window.testdemo = ref(2));
     // effect(() => {
-    //     console.log('testdemo.value ', testdemo.value);
+    //     console.log('testdemo.value ', testde mo.value);
     // });
 
     // computed 测试

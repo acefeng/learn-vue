@@ -17,7 +17,9 @@ export type VNode = {
     type: any,
     props: any | null,
     children: string | any[] | number | null,
-    shapeFlag: ShapeFlags | 0
+    shapeFlag: ShapeFlags | 0,
+    el: any
+    anchor?: any
 }
 
 export function h(type, props, children): VNode {
@@ -42,6 +44,7 @@ export function h(type, props, children): VNode {
         type,
         props,
         children,
-        shapeFlag
+        shapeFlag,
+        el: null
     }
 }
